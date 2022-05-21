@@ -1,0 +1,50 @@
+.container{                              
+    margin: 5% 10% 5% 10%;
+    display: flex;  
+    justify-content: center;
+}
+.formWrapper{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    box-shadow: 2px 2px 6px black;
+    width: 100%;
+    padding:0px 50px;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.headingTxt{
+    margin-bottom: 20px; 
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(70, 113, 233); 
+}
+.error{
+    color: rgb(185, 57, 57);
+    font-style: italic;
+    font-size: 12px;
+}
+
+.btn-primary{
+    display: block;
+    background-color: rgb(70, 113, 233);
+    width: 100%;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px gray;
+}
+ 
+.bottomLayer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.linkWrapper{
+    text-decoration: none;
+    color: rgb(70, 113, 233);
+    cursor: pointer;
+}

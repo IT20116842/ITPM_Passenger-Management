@@ -1,0 +1,85 @@
+.bookInputWrap{
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.bookFormWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} 
+.btn-edit{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    background-color: rgb(234, 190, 255);
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-delete{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(255, 227, 239);
+    color: rgb(226, 43, 119);
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-report{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(255, 227, 239);
+    color: rgb(137, 43, 226);
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    box-shadow: -2px -2px 6px gray;
+}
+
+.flex-row-style{ 
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    box-shadow: 1px 2px 6px gray;
+    justify-content: space-evenly;
+}
+.btn{
+    width: 100%;  
+    padding:10px 30px 10px 30px;
+}
+.btn-row{ 
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} 
+.center-text{
+    display: flex;
+    text-shadow: 2px 2px 6px gray;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.table-wrap{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px 20px 10px 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.heading_separate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
